@@ -1,0 +1,40 @@
+@charset "UTF-8"
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+ 
+body{
+    background-color: rgb(221, 210, 210);
+    background-size: 100vh; 
+    font-size: 15px; 
+}
+
+#menu{
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 1000px;
+}
+
+#menu ul{
+    padding: 10px;
+    margin: 2px;
+    color: yellow; 
+}
+
+nav#menu li{
+    background-color: grey;
+    display: inline-block;
+    padding: 20px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 100px;
+}

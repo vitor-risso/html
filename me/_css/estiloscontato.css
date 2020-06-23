@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: green;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+body{
+        background-color: rgb(126, 126, 199);
+        height: 100vh;
+}
+
+.contatos{
+    font-size: 15px;
+    display: flex;
+    
+
+}
+
+h1{
+    font-size: 25px;
+}
+
+.menu{
+
+    background-color: chartreuse;
+    font-size: 15px;
+    position: fixed;
+    width: 100vw;
+}
+
+.menu li{
+    list-style: none;
+    background-color: indianred;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}

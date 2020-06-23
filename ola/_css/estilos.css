@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: green;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+body{
+    background-color: rgb(235, 235, 65);
+}
+
+h1{
+    color: black;
+    text-shadow: 2px 2px 2px;
+} 
+
+.menu{
+    background-color: grey;
+    color: rgb(71, 71, 211);
+    font-size: 20px;
+    position: fixed;
+    width: 100vw; 
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu li{
+    list-style: none;
+    background-color: darkblue;
+    padding: 10px;
+}
+
